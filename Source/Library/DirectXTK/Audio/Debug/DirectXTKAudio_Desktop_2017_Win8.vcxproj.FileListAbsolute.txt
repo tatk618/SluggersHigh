@@ -1,0 +1,14 @@
+C:\Users\Fugut\Desktop\特進クラス\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\特進クラス\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\配布2020\プログラム\特進クラス\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\配布2020\プログラム\特進クラス\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Downloads\新しいフォルダー\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Downloads\新しいフォルダー\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\新しいフォルダー\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\新しいフォルダー\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+E:\作品\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+E:\作品\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Documents\作品\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Documents\作品\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\作品\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\Fugut\Desktop\作品\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb

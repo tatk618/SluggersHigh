@@ -1,0 +1,14 @@
+C:\Users\Fugut\Desktop\特進クラス\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\特進クラス\Library\DirectXTK\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\配布2020\プログラム\特進クラス\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\配布2020\プログラム\特進クラス\Library\DirectXTK\Debug\DirectXTK.pdb
+C:\Users\Fugut\Downloads\新しいフォルダー\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+C:\Users\Fugut\Downloads\新しいフォルダー\Library\DirectXTK\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\新しいフォルダー\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\新しいフォルダー\Library\DirectXTK\Debug\DirectXTK.pdb
+E:\作品\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+E:\作品\Library\DirectXTK\Debug\DirectXTK.pdb
+C:\Users\Fugut\Documents\作品\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+C:\Users\Fugut\Documents\作品\Library\DirectXTK\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\作品\Library\DirectXTK\Lib\Debug\DirectXTK.pdb
+C:\Users\Fugut\Desktop\作品\Library\DirectXTK\Debug\DirectXTK.pdb

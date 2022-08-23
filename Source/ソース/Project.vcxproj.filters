@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{d5173dcf-2786-4f98-bd55-d03549637dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{80d0a5a9-6779-4863-bede-cc22a4986dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System">
+      <UniqueIdentifier>{f5928314-3ee2-4e39-abfa-d93aa9ee5891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Direct3D">
+      <UniqueIdentifier>{f193abd5-e51c-466e-a937-722bc9175e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Utility">
+      <UniqueIdentifier>{f5d733b1-5031-4659-a9d4-0dd3add1e5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Window">
+      <UniqueIdentifier>{cb022f2a-c5a2-449b-9b70-5110aff8550f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\tinygltf">
+      <UniqueIdentifier>{307bfbcd-124f-4ad7-85f5-3fd94f814b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Shader">
+      <UniqueIdentifier>{93543c0c-58fe-4a94-8279-7be3021b65b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Shader\EffectShader">
+      <UniqueIdentifier>{3ed945a9-befa-4db2-b780-7714e82626ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Shader\SpriteShader">
+      <UniqueIdentifier>{2da4d471-f4e8-4b2d-bdef-b93f91523b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Shader\StandardShader">
+      <UniqueIdentifier>{0a93a6dd-bb60-46dc-820f-6aea10b3b02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application">
+      <UniqueIdentifier>{d0d0f9cf-dabd-4346-bc9a-d9c04cf42372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System\Audio">
+      <UniqueIdentifier>{667d1cb1-5ae5-476f-acd5-14b7d294a95a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Sky">
+      <UniqueIdentifier>{e2d7736d-8a3e-4a8a-bddc-0f4db58bdd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\player">
+      <UniqueIdentifier>{661a4df5-ea6d-41cd-a741-eb64b457c17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\enemy">
+      <UniqueIdentifier>{b54a8f85-418b-477a-a806-160eea08916b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\explosion">
+      <UniqueIdentifier>{f389e1f6-8756-4df5-ae65-a149b6bdcd57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers">
+      <UniqueIdentifier>{ba50fe68-694a-4cb4-9b52-1b0f50dc1697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\Scene">
+      <UniqueIdentifier>{6f7fd670-ed69-4d20-a518-53ffd9078088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\Texture">
+      <UniqueIdentifier>{2556af6c-c8aa-4270-b71f-75d9a05f361f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\Model">
+      <UniqueIdentifier>{6ced4feb-1752-4a39-a5b4-6e04e9d25dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\enemy\Drone">
+      <UniqueIdentifier>{40f4e135-7cf5-4b96-9b96-46ec2cbf29a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene">
+      <UniqueIdentifier>{87387bdb-0686-4844-9b2e-4c93390f7132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\Title">
+      <UniqueIdentifier>{a80c169f-0100-4fd8-9956-8e879ebd5471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\Game">
+      <UniqueIdentifier>{018e33c6-317d-47cd-acaf-7ba28d06097d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\list">
+      <UniqueIdentifier>{dcf5b00f-f117-4172-9aea-271d52c31c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States">
+      <UniqueIdentifier>{a110ebb6-c8cf-496b-9297-17e7dd3c1c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\list">
+      <UniqueIdentifier>{b40e218f-f5aa-4f37-9e84-4f6f1cc62788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\enemies">
+      <UniqueIdentifier>{5f023214-3018-4319-9eef-753ac7617ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\Walkaround">
+      <UniqueIdentifier>{8c967a2e-aab7-47f3-a2b1-5368a944bf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\explosion">
+      <UniqueIdentifier>{54ed33a1-f753-4f3b-b403-0e10bfc6215d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\Result">
+      <UniqueIdentifier>{784473b6-27e0-4612-8690-6ac4de53b921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\Enemies">
+      <UniqueIdentifier>{b7b28e72-7b1e-4452-bbca-06627c7e6be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\enemy\enemy">
+      <UniqueIdentifier>{d623c085-9ae1-4b51-88b3-a75029160ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\namespace">
+      <UniqueIdentifier>{e0718f4b-8a4b-4574-8bb8-9fbd94094641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\Approach">
+      <UniqueIdentifier>{6ccee980-2791-4382-ac17-5ff6428ec0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\stage">
+      <UniqueIdentifier>{2d828c55-1682-4eae-8531-151e4a56cfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\Attack">
+      <UniqueIdentifier>{afa6ce33-68f6-47f2-903b-a982db37400f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\Blow">
+      <UniqueIdentifier>{044ee8d1-7a7c-4a69-9334-fbabef6c134b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\Sound">
+      <UniqueIdentifier>{89c0a8b7-82e9-4f52-9b9c-3487c604a349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Lifegauge">
+      <UniqueIdentifier>{d8c515d5-7538-4b2a-8e38-0aec5ce21ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\Falling">
+      <UniqueIdentifier>{cad42e03-96f2-4fe9-8e4f-eeb8d81cca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\enemy\boss">
+      <UniqueIdentifier>{7fe66fe8-2c66-49b9-b051-20020f32be13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\Destroy">
+      <UniqueIdentifier>{77dd80b8-7fef-43cb-8e43-00774c7d7898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\Clear">
+      <UniqueIdentifier>{ff1624aa-cc32-49d9-a641-59d796478152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Redlight">
+      <UniqueIdentifier>{2dda7c15-2c37-4e44-8acd-b4adf3fa2823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\redlight">
+      <UniqueIdentifier>{813e4a17-26e3-439f-a1d6-aeccac7c40d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\hitmark">
+      <UniqueIdentifier>{667864e5-4e10-485f-9937-049546ac2f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Managers\hitmark">
+      <UniqueIdentifier>{28a50eca-7be3-4efd-b455-a8d8c1fcf2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\States\hitblow">
+      <UniqueIdentifier>{66d8fce5-2e8e-4c9f-a56b-456e39217ab9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Pch.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\json.hpp">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\stb_image.h">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\stb_image_write.h">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\tiny_gltf.h">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\main.h">
+      <Filter>Src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Direct3D\KdDirect3D.h">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Direct3D\KdModel.h">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Direct3D\KdTexture.h">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Direct3D\KdBuffer.h">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Audio\KdAudio.h">
+      <Filter>Src\System\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Direct3D\KdGLTFLoader.h">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Shader\KdShaderManager.h">
+      <Filter>Src\System\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Shader\EffectShader\KdEffectShader.h">
+      <Filter>Src\System\Shader\EffectShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Shader\SpriteShader\KdSpriteShader.h">
+      <Filter>Src\System\Shader\SpriteShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Shader\StandardShader\KdStandardShader.h">
+      <Filter>Src\System\Shader\StandardShader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Utility\KdUtility.h">
+      <Filter>Src\System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\KdSystem.h">
+      <Filter>Src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\strconv.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Window\KdWindow.h">
+      <Filter>Src\System\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\define.h">
+      <Filter>Src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\enemies\drone\drone.h">
+      <Filter>Src\Application\enemy\Drone</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\explosion\explosion.h">
+      <Filter>Src\Application\explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\Scene\SceneManager.h">
+      <Filter>Src\Application\Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\Texture\TextureManager.h">
+      <Filter>Src\Application\Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\player\Player.h">
+      <Filter>Src\Application\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\sky\Sky.h">
+      <Filter>Src\Application\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\Title\TitleScene.h">
+      <Filter>Src\Application\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\list\SceneList.h">
+      <Filter>Src\Application\Scene\list</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\Game\GameScene.h">
+      <Filter>Src\Application\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\Scene.h">
+      <Filter>Src\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\State.h">
+      <Filter>Src\Application\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\list\Statelist.h">
+      <Filter>Src\Application\States\list</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\walkaround\Walkaround.h">
+      <Filter>Src\Application\States\Walkaround</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\Model\ModelManager.h">
+      <Filter>Src\Application\Managers\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\Explosion\ExplosionManager.h">
+      <Filter>Src\Application\Managers\explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\Result\ResultScene.h">
+      <Filter>Src\Application\Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\Enemy\EnemyManager.h">
+      <Filter>Src\Application\Managers\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\enemies\enemy\enemy.h">
+      <Filter>Src\Application\enemy\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\namespace\namespace.h">
+      <Filter>Src\namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\approach\Approach.h">
+      <Filter>Src\Application\States\Approach</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Stage\colossus.h">
+      <Filter>Src\Application\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\attack\Attack.h">
+      <Filter>Src\Application\States\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\blow\Blow.h">
+      <Filter>Src\Application\States\Blow</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\sound\SoundManager.h">
+      <Filter>Src\Application\Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Lifegauge\Lifegauge.h">
+      <Filter>Src\Application\Lifegauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\falling\Falling.h">
+      <Filter>Src\Application\States\Falling</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\enemies\boss\boss.h">
+      <Filter>Src\Application\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\Destroy\destroy.h">
+      <Filter>Src\Application\States\Destroy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\Clear\ClearScene.h">
+      <Filter>Src\Application\Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\redlight\Redlight.h">
+      <Filter>Src\Application\Redlight</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\redlight\redlightmanager.h">
+      <Filter>Src\Application\Managers\redlight</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Hitmark\hitmark.h">
+      <Filter>Src\Application\hitmark</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Manager\hitmark\hitmarkmanager.h">
+      <Filter>Src\Application\Managers\hitmark</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\States\hitblow\hitblow.h">
+      <Filter>Src\Application\States\hitblow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\main.cpp">
+      <Filter>Src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Direct3D\KdDirect3D.cpp">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Direct3D\KdModel.cpp">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Direct3D\KdTexture.cpp">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Direct3D\KdBuffer.cpp">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Audio\KdAudio.cpp">
+      <Filter>Src\System\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Direct3D\KdGLTFLoader.cpp">
+      <Filter>Src\System\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Shader\KdShaderManager.cpp">
+      <Filter>Src\System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Shader\EffectShader\KdEffectShader.cpp">
+      <Filter>Src\System\Shader\EffectShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Shader\SpriteShader\KdSpriteShader.cpp">
+      <Filter>Src\System\Shader\SpriteShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Shader\StandardShader\KdStandardShader.cpp">
+      <Filter>Src\System\Shader\StandardShader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Window\KdWindow.cpp">
+      <Filter>Src\System\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Utility\KdUtility.cpp">
+      <Filter>Src\System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\enemies\drone\drone.cpp">
+      <Filter>Src\Application\enemy\Drone</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\explosion\explosion.cpp">
+      <Filter>Src\Application\explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\Model\ModelManager.cpp">
+      <Filter>Src\Application\Managers\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\Scene\SceneManager.cpp">
+      <Filter>Src\Application\Managers\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\Texture\TextureManager.cpp">
+      <Filter>Src\Application\Managers\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\player\Player.cpp">
+      <Filter>Src\Application\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\sky\Sky.cpp">
+      <Filter>Src\Application\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\Title\TitleScene.cpp">
+      <Filter>Src\Application\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\Game\GameScene.cpp">
+      <Filter>Src\Application\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\Scene.cpp">
+      <Filter>Src\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\walkaround\Walkaround.cpp">
+      <Filter>Src\Application\States\Walkaround</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\Explosion\ExplosionManager.cpp">
+      <Filter>Src\Application\Managers\explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\Result\ResultScene.cpp">
+      <Filter>Src\Application\Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\Enemy\EnemyManager.cpp">
+      <Filter>Src\Application\Managers\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\enemies\enemy\enemy.cpp">
+      <Filter>Src\Application\enemy\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\namespace\namespace.cpp">
+      <Filter>Src\namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\approach\Approach.cpp">
+      <Filter>Src\Application\States\Approach</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Stage\colossus.cpp">
+      <Filter>Src\Application\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\attack\Attack.cpp">
+      <Filter>Src\Application\States\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\blow\Blow.cpp">
+      <Filter>Src\Application\States\Blow</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\sound\SoundManager.cpp">
+      <Filter>Src\Application\Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Lifegauge\Lifegauge.cpp">
+      <Filter>Src\Application\Lifegauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\falling\Falling.cpp">
+      <Filter>Src\Application\States\Falling</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\enemies\boss\boss.cpp">
+      <Filter>Src\Application\enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\Destroy\destroy.cpp">
+      <Filter>Src\Application\States\Destroy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\Clear\ClearScene.cpp">
+      <Filter>Src\Application\Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\redlight\Redlight.cpp">
+      <Filter>Src\Application\Redlight</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\redlight\redlightmanager.cpp">
+      <Filter>Src\Application\Managers\redlight</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Hitmark\hitmark.cpp">
+      <Filter>Src\Application\hitmark</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Manager\hitmark\hitmarkmanager.cpp">
+      <Filter>Src\Application\Managers\hitmark</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\States\hitblow\hitblow.cpp">
+      <Filter>Src\Application\States\hitblow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Src\System\Shader\EffectShader\inc_KdEffectShader.hlsli">
+      <Filter>Src\System\Shader\EffectShader</Filter>
+    </None>
+    <None Include="Src\System\Shader\inc_KdCommon.hlsli">
+      <Filter>Src\System\Shader</Filter>
+    </None>
+    <None Include="Src\System\Shader\SpriteShader\inc_KdSpriteShader.hlsli">
+      <Filter>Src\System\Shader\SpriteShader</Filter>
+    </None>
+    <None Include="Src\System\Shader\StandardShader\inc_KdStandardShader.hlsli">
+      <Filter>Src\System\Shader\StandardShader</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Src\System\Shader\EffectShader\KdEffectShader_PS.hlsl">
+      <Filter>Src\System\Shader\EffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\System\Shader\EffectShader\KdEffectShader_VS.hlsl">
+      <Filter>Src\System\Shader\EffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\System\Shader\SpriteShader\KdSpriteShader_PS.hlsl">
+      <Filter>Src\System\Shader\SpriteShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\System\Shader\SpriteShader\KdSpriteShader_VS.hlsl">
+      <Filter>Src\System\Shader\SpriteShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\System\Shader\StandardShader\KdStandardShader_PS.hlsl">
+      <Filter>Src\System\Shader\StandardShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\System\Shader\StandardShader\KdStandardShader_VS.hlsl">
+      <Filter>Src\System\Shader\StandardShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
